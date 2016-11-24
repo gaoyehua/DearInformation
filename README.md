@@ -8,5 +8,8 @@ this is a usefull Android application,it can help you gain more information but 
   [亲亲资讯](http://fir.im/cykw)
 
 截图：
+--------
+
+ 新闻资讯界面：
   
-  ![新闻资讯](https://github.com/gaoyehua/DearInformation/blob/master/shortcut/Screenshot_2016-11-15-12-01-00.png)
+  ![](https://github.com/gaoyehua/DearInformation/blob/master/shortcut/Screenshot_2016-11-15-12-01-00.png)
