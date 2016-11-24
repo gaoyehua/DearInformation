@@ -35,9 +35,9 @@ this is a usefull Android application,it can help you gain more information but 
 
 ##联系方式
 
-gaoyehua520@gmail.com
+email： gaoyehua520@gmail.com
 
-1256546599
+WeChat： gaoyehua2015（麻烦备注GitHub）
 
 ##感谢
 
