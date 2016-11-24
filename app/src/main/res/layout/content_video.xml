@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.video.VideoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.yeyu.dearinformaton.View.CustomTextView
+            android:id="@+id/main_toolbar_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today" />
+        <com.yeyu.dearinformaton.View.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:text="DearVideo"/>
+        <ImageButton
+            android:id="@+id/main_toolbar_iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:src="@drawable/main_toolbar_eye_selector"/>
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorGray"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:id="@+id/main_ll_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:id="@+id/empty_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="200dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/retry_refresh_news"-->
+            <!--android:textColor="@color/secondary_text"-->
+            <!--android:textSize="@dimen/big_medium"-->
+            <!--android:visibility="gone"-->
+            <!--tools:visibility="visible"/>-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progress_bar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"/>-->
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/fab"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|end"-->
+            <!--android:layout_margin="@dimen/fab_margin"-->
+            <!--android:src="@drawable/ic_arrow_upward"-->
+            <!--app:layout_behavior=".widget.ScrollAwareFABBehavior"/>-->
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/main_rgp_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="每日精选"
+            android:textColor="@drawable/main_menu_selector" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@color/colorGray" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发现更多"
+            android:textColor="@drawable/main_menu_selector" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@color/colorGray" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="热门排行"
+            android:textColor="@drawable/main_menu_selector" />
+    </RadioGroup>
+
+</LinearLayout>
