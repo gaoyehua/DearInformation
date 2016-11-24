@@ -9,4 +9,4 @@ this is a usefull Android application,it can help you gain more information but 
 
 截图：
   
-  ![](https://github.com/gaoyehua/DearInformation/blob/master/shortcut/Screenshot_2016-11-15-12-01-00.png)
+  ![新闻资讯](https://github.com/gaoyehua/DearInformation/blob/master/shortcut/Screenshot_2016-11-15-12-01-00.png)
